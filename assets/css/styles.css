@@ -1,0 +1,170 @@
+.header-area {
+  background: linear-gradient(rgba(16,35,58,0.66), rgb(16,35,58)), url("../../assets/img/radar-dish-63013-tiny.jpg") center / cover no-repeat;
+}
+
+.hero-section {
+  min-height: 85vh;
+}
+
+body {
+  font-family: 'Open Sans';
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6, .theme-btn, .hero-subtitle-list li {
+  font-family: 'Poppins';
+}
+
+.h1, .h2, .h3, .h4, h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  color: #10233a;
+}
+
+.hero-title {
+  font-size: calc(0.75em + 8vmin);
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.hero-subtitle-list li {
+  color: #ffffff;
+  font-size: calc(0.75em + 1vmin);
+}
+
+.theme-btn {
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  padding: 9px 30px;
+  text-transform: uppercase;
+  border-radius: 0px;
+  background: rgba(16,35,58,0.36);
+}
+
+.theme-btn:hover, .theme-btn:focus {
+  color: #ffffff;
+  box-shadow: none;
+  outline: none;
+  background: rgba(16,35,58,0.64);
+}
+
+.logo {
+  width: 140px;
+}
+
+.section-titles h1, .section-titles h2, .section-titles h3, .section-titles h4, .section-titles h5, .section-titles h6 {
+  margin-bottom: 0px;
+}
+
+.section-subtitle-with-line {
+  overflow: hidden;
+  font-size: calc(0.75em + 1vmin);
+}
+
+.section-subtitle-with-line:before, .section-subtitle-with-line:after {
+  background-color: #000;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50px;
+}
+
+.section-subtitle-with-line:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+.section-subtitle-with-line:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+.section-main-title {
+  font-size: calc(0.75em + 6vmin);
+}
+
+.content-title {
+  font-weight: 700;
+  font-size: calc(0.5em + 2vmin);
+}
+
+.content-title span {
+  font-weight: 100;
+}
+
+.gradient-text {
+  background: linear-gradient(60deg, rgba(21,96,247,1) 0%, rgba(29,225,203,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.image-right-margin {
+  margin-right: 5%;
+}
+
+.content-paragraph {
+  font-size: calc(0.7em + 0.5vmin);
+  line-height: 1.8;
+}
+
+.signature {
+  width: 230px;
+}
+
+.section-padding {
+  padding-top: 10vw;
+  padding-bottom: 10vw;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+  color: rgb(29,225,203);
+}
+
+.service-lists li {
+  margin-bottom: 20px;
+  font-size: calc(0.7em + 0.4vmin);
+}
+
+hr.servicebar {
+  border-top: 1px solid #1de1cb;
+}
+
+.service-section .content-title {
+  font-weight: 500;
+  font-size: calc(1em + 1vmin);
+}
+
+.service-icon {
+  width: 85px;
+}
+
+.team-image {
+  width: 250px;
+}
+
+.team-box {
+  padding: 15px;
+  background: rgba(29,131,225,0.04);
+}
+
+.texm-title {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.contact-btn:hover {
+  border: 2px solid #10233a;
+  background: #10233a;
+  color: rgb(255,255,255);
+}
+
+.contact-btn {
+  border: 2px solid #10233a;
+  background: rgba(255,255,255,0);
+  color: #10233a;
+}
+
+footer {
+  background: #10233a;
+}
+
